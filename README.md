@@ -1,16 +1,17 @@
-# hotels admin front
+# employee management front
 
-Este proyecto es un sistema de gestión de hoteles que permite administrar la información de los hoteles y sus habitaciones. Proporciona funcionalidades como agregar hoteles, gestionar tipos de habitaciones y acomodaciones, y validar las asignaciones de habitaciones según los tipos correspondientes.
+Este proyecto es una aplicación web que permite cargar y gestionar una lista de empleados. Proporciona una interfaz intuitiva para visualizar y buscar empleados por su ID.
 
 ## Características
 
-- Registrar y administrar información de hoteles.
-- Gestionar tipos de habitaciones y acomodaciones.
-- Validar las asignaciones de habitaciones según los tipos correspondientes.
+- Cargar la lista de empleados desde una fuente de datos.
+- Mostrar una lista de empleados con su información relevante, como nombre, edad, salario mensual y salario mensual.
+- Buscar empleados por su ID para encontrar rápidamente la información específica de un empleado.
+- Interfaz de usuario intuitiva y fácil de usar.
 
 ## Instalación
 
-1. Clona el repositorio: `git clone https://github.com/sebastianocamporoa/hotels_admin_front.git`
+1. Clona el repositorio: `git clone https://github.com/sebastianocamporoa/employee-managenet-front.git`
 2. Navega hasta el directorio del proyecto: `cd hotels_admin_front`
 3. Instala las dependencias: `npm install`
 
