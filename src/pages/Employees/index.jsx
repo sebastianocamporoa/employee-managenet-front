@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import axios from "axios";
+//import axios from "axios";
 import * as ReactBootStrap from "react-bootstrap";
 import Loader from "../../components/loader";
 import "../styles.css";
 
 function Employees() {
-  const [initialValues, setInitialValues] = useState([
+  const initialValues = [
     {
       id: 1,
       annualSalary: 3849600.0,
@@ -199,7 +199,7 @@ function Employees() {
       employee_age: 23,
       profile_image: "",
     },
-  ]);
+  ];
   const [posts, setPosts] = useState([
     {
       id: 1,
@@ -395,7 +395,7 @@ function Employees() {
     },
   ]);
 
-  const [allEmployees, setAllEmployees] = useState([]);
+  //const [allEmployees, setAllEmployees] = useState([]);
   const [search, setSearch] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
