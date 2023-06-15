@@ -24,7 +24,8 @@ function Employees() {
   async function getEmployees() {
     setIsLoading(true);
     const response = await axios.get(
-      "https://employee-management-production-ea41.up.railway.app/employees"
+      "https://employee-management-production-ea41.up.railway.app/employees",
+      { headers: { "Access-Control-Allow-Origin": "*" } }
     );
     console.log(response);
     //setAllEmployees(response.data.data);
