@@ -5,8 +5,7 @@ import SideBar from './components/Sidebar';
 import sidebar_menu from './constants/sidebar-menu';
 
 import './App.css';
-import Hotels from './pages/Hotels';
-import RoomTypes from './pages/RoomTypes';
+import Employees from './pages/Employees';
 
 function App () {
   return(
@@ -17,9 +16,7 @@ function App () {
           <div className='dashboard-body'>
               <Routes>
                   <Route path="*" element={<div></div>} />
-                  <Route exact path="/" element={< Hotels/>}/>
-                  <Route exact path="/room-types" element={< RoomTypes/>} />
-                  <Route exact path="/accommodations" element={<div></div>} />
+                  <Route exact path="/" element={< Employees/>}/>
               </Routes>
           </div>
       </div>
